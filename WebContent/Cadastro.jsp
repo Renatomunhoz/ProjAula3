@@ -8,5 +8,15 @@
 </head>
 <body>
 
+<form action = "Salvar.jsp" method ="post">
+
+Id: <input type = "Text" name = "id">
+Descrição: <input type = "Text" name = "descricao">
+Ano: <input type = "Text" name = "ano">
+
+<input type = "submit" value= "Salvar">
+
+</form>
+
 </body>
 </html>
