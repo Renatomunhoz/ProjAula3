@@ -13,7 +13,7 @@ public class Conexao {
 			 Class.forName("com.mysql.jdbc.Driver");
 			 Connection con = null;
 			 con = (Connection)
-					 DriverManager.getConnection("jdbc:mysql://localhost/cadastro","root","1234");
+					 DriverManager.getConnection("jdbc:mysql://localhost/bdmoto","root","logatti");
 			 return con;
  			 
 		 }catch(SQLException e) {
